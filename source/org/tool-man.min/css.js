@@ -1,0 +1,1 @@
+ToolMan._cssFactory={readStyle:function(a,c){if(a.style[c]){return a.style[c]}else{if(a.currentStyle){return a.currentStyle[c]}else{if(document.defaultView&&document.defaultView.getComputedStyle){var b=document.defaultView.getComputedStyle(a,null);return b.getPropertyValue(c)}else{return null}}}}};
